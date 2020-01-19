@@ -22,7 +22,7 @@ You can also help me by making pull requests to add some more information
  
 * [Python Programming](https://www.tutorialspoint.com/python/index.htm) <br/>
         Programming is the key in computer field and python make it easier :)
-* [Damn Vulnerable Web Application (DVWA)](http://www.dvwa.co.uk/)
+* [Damn Vulnerable Web Application (DVWA)](http://www.dvwa.co.uk/) <br/>
         Basic Web Attacks Will be Applied in most linux machines. Read tutorials how to exploit security flaws in DVWA
 
 * [Basic Tmux Tutorial](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjV0vykk5DnAhWfgUsFHWMXDmAQyCkwAHoECAsQBA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLqehvpe_djs&usg=AOvVaw2loDz-oLBjGTTkISmE5d6G)
