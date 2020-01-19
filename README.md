@@ -30,3 +30,5 @@ You can also help me by making pull requests to add some more information
 
 
 
+<script src="https://www.hackthebox.eu/badge/4314"></script>
+
