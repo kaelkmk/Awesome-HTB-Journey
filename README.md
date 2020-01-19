@@ -1,12 +1,12 @@
 # Awesome-HTB-Journey
-HTB Journey Starter Kit <br/>
+HTB Journey Starter List <br/>
 
 A list for those who want to own boxes but don't know what to start. <br/>
 
 You can also help by making pull requests to add some more information ^^
 
-# [x] Preparation
-==================
+[x] Preparation
+===============
 
 - Basic Linux Commands [linuxzoo](https://linuxzoo.net/)
 - [Linux Fundamentals Book](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwie1PuhlJDnAhXZZSsKHQfLBioQFjAAegQIBhAB&url=http%3A%2F%2Flinux-training.be%2Flinuxfun.pdf&usg=AOvVaw1x8_hp3Va5GA-f7IGeY4vv) If you want to dive a bit deeper
