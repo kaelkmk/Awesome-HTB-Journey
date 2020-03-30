@@ -8,8 +8,8 @@ You can also help me by making pull requests to add some more information
 # Table of Contents
 ==========================================
 * [Preparation](#-preparation)
-* [Windows Cheatsheet](#-windows-cheatsheet)
-* [Linux Cheatsheet](#-linux-cheatsheet)
+* [Windows Cheatsheet](#windows-cheatsheet)
+* [Linux Cheatsheet](#linux-cheatsheet)
 
 ## [↑](#table-of-contents) Preparation
 ==========================================
@@ -31,7 +31,7 @@ You can also help me by making pull requests to add some more information
 ## [↑](#table-of-contents)Windows Cheatsheet
 ==========================================
 ### [Enumeration]
-*  `enum4linux ip`
+* `enum4linux ip`
 * `mount -t cifs -o username='r.thompson',password='rY4n5eva' //10.10.10.182/Data /mnt`
 
 <script src="https://www.hackthebox.eu/badge/4314"></script>
