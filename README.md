@@ -32,7 +32,7 @@ You can also help me by making pull requests to add some more information
 ==========================================
 ### [Enumeration]
 * `enum4linux ip`
-* `mount -t cifs -o username='r.thompson',password='rY4n5eva' //10.10.10.182/Data /mnt`
+* `mount -t cifs -o username='username',password='password' //10.10.10.182/Data /mnt`
 
 <script src="https://www.hackthebox.eu/badge/4314"></script>
 
