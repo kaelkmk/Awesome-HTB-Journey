@@ -7,11 +7,11 @@ You can also help me by making pull requests to add some more information
 
 ## [x] Table of Content
 ==========================================
-* [Preparation](#-preparation)
-* [Windows Cheatsheet](#-windows-cheatsheet)
-* [Linux Cheatsheet](#-linux-cheatsheet)
+* [Preparation](#preparation)
+* [Windows Cheatsheet](#windows-cheatsheet)
+* [Linux Cheatsheet](#linux-cheatsheet)
 
-## [x](#-table-of-content) Preparation
+## [x](#table-of-content) Preparation
 ==========================================
 
 * [Linux Fundamentals Book](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwie1PuhlJDnAhXZZSsKHQfLBioQFjAAegQIBhAB&url=http%3A%2F%2Flinux-training.be%2Flinuxfun.pdf&usg=AOvVaw1x8_hp3Va5GA-f7IGeY4vv) <br/>
@@ -28,7 +28,7 @@ You can also help me by making pull requests to add some more information
 * [Basic Tmux Tutorial](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjV0vykk5DnAhWfgUsFHWMXDmAQyCkwAHoECAsQBA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLqehvpe_djs&usg=AOvVaw2loDz-oLBjGTTkISmE5d6G)
 * [Overthewire: Wargames](https://overthewire.org/wargames/)
 
-## [x](#-table-of-content) Windows Cheatsheet
+## [x](#table-of-content) Windows Cheatsheet
 ==========================================
 ### [Enumeration]
 *  `enum4linux ip`
