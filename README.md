@@ -30,7 +30,10 @@ You can also help me by making pull requests to add some more information
 
 ## [↑](#table-of-contents)Windows Cheatsheet
 ==========================================
-### [Enumeration]
+### Enumeration
+nmap
+* `nmap -sV -sC -o machine.nmap 10.10.x.x
+enum4linux to dump users and domain
 * `enum4linux ip`
 * `mount -t cifs -o username='username',password='password' //10.10.10.182/Data /mnt`
 
