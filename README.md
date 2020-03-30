@@ -36,6 +36,9 @@ You can also help me by making pull requests to add some more information
 #### Users and Domain Enumeration
 * `enum4linux ip`
 #### File Systems
+
+#### Active Directory
+* `ldapsearch -h 10.10.10.x -x -b "DC=domain,DC=local" "(objectClass=User)"`
 ##### SMB Enumeration
 * `smbmap.py -H 10.10.x.x`
 * `mount -t cifs -o username='username',password='password' //10.10.10.182/Data /mnt`
