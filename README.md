@@ -31,10 +31,13 @@ You can also help me by making pull requests to add some more information
 ## [↑](#table-of-contents)Windows Cheatsheet
 ==========================================
 ### Enumeration
-nmap
-* `nmap -sV -sC -o machine.nmap 10.10.x.x
-enum4linux to dump users and domain
+#### Basic Info Scan
+* `nmap -sV -sC -o machine.nmap 10.10.x.x`
+#### Users and Domain Enumeration
 * `enum4linux ip`
+#### File Systems
+##### SMB Enumeration
+* `smbmap.py -H 10.10.x.x`
 * `mount -t cifs -o username='username',password='password' //10.10.10.182/Data /mnt`
 
 <script src="https://www.hackthebox.eu/badge/4314"></script>
