@@ -51,10 +51,28 @@ Invoke-Command -Session $session -Script {whoami}
 * `ldapsearch -h 10.10.10.x -x -b "DC=domain,DC=local" "(objectClass=User)"`
 * [Impacket](https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a)
 #### File Systems
-
-##### SMB Enumeration
-* `smbmap.py -H 10.10.x.x`
 * `mount -t cifs -o username='username',password='password' //10.10.10.182/Data /mnt`
+#### SMB Enumeration
+
+##### Anonymouse smbmapping
+* `smbmap.py -H 10.10.x.x` 
+##### smbmap with creds
+* `smbmap.py -u 'user' -p 'password' -H ip`
+
+## [↑](#table-of-contents)Windows Cheatsheet
+### Enumeration
+#### Basic Info Scan
+* `nmap -sV -sC -o machine.nmap IP`
+
+#### Gobuster Usage
+* `gobuster dir -u 'url' -w 'wordlist' -t 40 -x .php,.txt`
+
+#### Sqlmap Usage
+* `sqlmap -u url --headers="header" --data="idProduct=1"`
+
+<br/>
+<br/>
+<br/>
 <p align="center">
     <img src='https://www.hackthebox.eu/badge/image/4314' alt='hack-the-box-badge'>
 </p>
