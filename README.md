@@ -33,12 +33,22 @@ You can also help me by making pull requests to add some more information
 ### Enumeration
 #### Basic Info Scan
 * `nmap -sV -sC -o machine.nmap 10.10.x.x`
-#### Users and Domain Enumeration
+Users and Domain Enumeration
 * `enum4linux ip`
-#### File Systems
+Execute PS Command as another user
+:::powershell
+$username = 'user';
+$password = 'password';
+$securePassword = ConverTo-SecureString $password -AsPlainText -Force;
+$credential = New-Object System.Management.Automation.PsCredential("$env:WORKGROUP\$username",$securePassword);
+$session = New-PSSession -Credential $credential;
+Invoke-Command -Session $session -Script {whoami}
 
 #### Active Directory
 * `ldapsearch -h 10.10.10.x -x -b "DC=domain,DC=local" "(objectClass=User)"`
+* [Impacket](https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a)
+#### File Systems
+
 ##### SMB Enumeration
 * `smbmap.py -H 10.10.x.x`
 * `mount -t cifs -o username='username',password='password' //10.10.10.182/Data /mnt`
