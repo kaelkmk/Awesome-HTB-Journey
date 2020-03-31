@@ -55,6 +55,7 @@ Invoke-Command -Session $session -Script {whoami}
 ##### SMB Enumeration
 * `smbmap.py -H 10.10.x.x`
 * `mount -t cifs -o username='username',password='password' //10.10.10.182/Data /mnt`
-
-<script src="https://www.hackthebox.eu/badge/4314"></script>
+<p align="center">
+    <img src='https://www.hackthebox.eu/badge/image/4314' alt='hack-the-box-badge'>
+</p>
 
