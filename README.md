@@ -28,7 +28,7 @@ You can also help me by making pull requests to add some more information
 * [Basic Tmux Tutorial](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjV0vykk5DnAhWfgUsFHWMXDmAQyCkwAHoECAsQBA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLqehvpe_djs&usg=AOvVaw2loDz-oLBjGTTkISmE5d6G)
 * [Overthewire: Wargames](https://overthewire.org/wargames/)
 
-## [↑](#table-of-contents)Windows Cheatsheet
+## [↑](#table-of-contents) Windows Cheatsheet
 ==========================================
 ### Enumeration
 #### Basic Info Scan
@@ -49,7 +49,7 @@ Invoke-Command -Session $session -Script {whoami}
 ---
 #### Active Directory
 * `ldapsearch -h 10.10.10.x -x -b "DC=domain,DC=local" "(objectClass=User)"`
-* [Impacket](https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a)
+*  [Impacket](https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a)
 #### File Systems
 * `mount -t cifs -o username='username',password='password' //10.10.10.182/Data /mnt`
 #### SMB Enumeration
