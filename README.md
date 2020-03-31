@@ -36,7 +36,7 @@ You can also help me by making pull requests to add some more information
 Users and Domain Enumeration
 * `enum4linux ip`<br/>
 
-Execute PS Command as another user
+#### Execute PS Command as another user
 ---
 ```powershell
 $username = 'user';
