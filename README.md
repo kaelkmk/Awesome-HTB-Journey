@@ -34,8 +34,10 @@ You can also help me by making pull requests to add some more information
 #### Basic Info Scan
 * `nmap -sV -sC -o machine.nmap 10.10.x.x`
 Users and Domain Enumeration
-* `enum4linux ip`
+* `enum4linux ip`<br/>
+
 Execute PS Command as another user
+---
 ```powershell
 $username = 'user';
 $password = 'password';
@@ -44,7 +46,7 @@ $credential = New-Object System.Management.Automation.PsCredential("$env:WORKGRO
 $session = New-PSSession -Credential $credential;
 Invoke-Command -Session $session -Script {whoami}
 ```
-
+---
 #### Active Directory
 * `ldapsearch -h 10.10.10.x -x -b "DC=domain,DC=local" "(objectClass=User)"`
 * [Impacket](https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a)
