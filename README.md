@@ -36,13 +36,14 @@ You can also help me by making pull requests to add some more information
 Users and Domain Enumeration
 * `enum4linux ip`
 Execute PS Command as another user
-:::powershell
+```powershell
 $username = 'user';
 $password = 'password';
 $securePassword = ConverTo-SecureString $password -AsPlainText -Force;
 $credential = New-Object System.Management.Automation.PsCredential("$env:WORKGROUP\$username",$securePassword);
 $session = New-PSSession -Credential $credential;
 Invoke-Command -Session $session -Script {whoami}
+```
 
 #### Active Directory
 * `ldapsearch -h 10.10.10.x -x -b "DC=domain,DC=local" "(objectClass=User)"`
